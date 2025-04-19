@@ -50,7 +50,7 @@ header{
   position: relative;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  min-height: 100vh;
   font-size: 2em;
 }
 
@@ -70,11 +70,11 @@ header{
   }
 
   .navigation.active {
-    display: flex; /* Show menu when active */
+    display: flex; 
   }
 
   .menu-toggle {
-    display:block; /* Show hamburger on mobile */
+    display:block;
     font-size: 35px;
     cursor: pointer;
   }
